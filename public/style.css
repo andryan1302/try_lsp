@@ -1,0 +1,149 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100%;
+}
+
+.header {
+    height: 360px;
+}
+
+.header img {
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #00248f;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar ul li {
+    padding: 15px 18px;
+    color: white;
+}
+
+.active {
+    background-color: aqua;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.main {
+    height: 435px;
+    background-color: skyblue;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.center {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.main .left {
+    text-align: left;
+    width: 30%;
+    background-color: #f1f1f1;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.main .left .btn-login {
+    width: 80px;
+    height: 40px;
+    margin: 0px 5px;
+    background-color: #00248f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.main .left .button-login {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.main .left .form-control {
+    margin: 10px 0px;
+}
+
+.main .left .form-control label {
+    font-size: 17px;
+    margin-right: 10px;
+}
+
+.main .left .form-control input:text,
+input:password {
+    width: 250px;
+    height: 20px;
+}
+
+.main .left .btn-submit {
+    width: 100px;
+    height: 30px;
+}
+
+.main .left .leftup {
+    padding: 10px;
+    /* box-sizing: border-box; */
+}
+
+.main .leftdown {
+    height: 500px;
+    background-color: #dbb3b3;
+    margin-top: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.main .leftdown img {
+    height: 200px;
+    width: 480px;
+    margin: 10px 0px;
+}
+
+.main .leftdown h1 {
+    margin-bottom: 10px;
+}
+
+.main .right {
+    width: 70%;
+    background-color: skyblue;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.main .right table {
+    width: 100%;
+    height: 80%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+.main .right table tr:nth-child(1) {
+    background-color: #00e070;
+    font-weight: bold;
+}
+
+.main .right table tr {
+    border-bottom: 1px solid black;
+}
+
+.footer {
+    height: 30px;
+    background-color: pink;
+}
